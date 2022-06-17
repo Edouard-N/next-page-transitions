@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   *,
@@ -61,6 +61,15 @@ const GlobalStyle = createGlobalStyle`
     &::-moz-focus-inner { border: 0; }
 
     &:not(:disabled) { cursor: pointer; }
+  }
+
+  .transitioning {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background: orange;
+    perspective: 1800px;
   }
 `;
 
