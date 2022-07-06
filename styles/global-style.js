@@ -71,6 +71,15 @@ const GlobalStyle = createGlobalStyle`
     background: orange;
     perspective: 1800px;
   }
+
+  canvas, .canvas {
+    position: fixed !important;
+    top:0;
+    left:0;
+    width: 100vw !important;
+    height: 100vh !important;
+    z-index: 5;
+  }
 `;
 
 export default GlobalStyle;
