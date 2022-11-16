@@ -23,7 +23,7 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <>
       <Header />
-      <ThreeComponent className={"canvas"} />
+      {/* <ThreeComponent className={"canvas"} /> */}
       {/* <MyAwesomeDeclarativeScene /> */}
       <PageTransitions
         route={router.asPath}
